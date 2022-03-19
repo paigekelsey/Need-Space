@@ -16,9 +16,9 @@ To use:
 
 1. **Download the repo** (either fork or download zip)
 2. **npm install**  (to install dependencies)
-3. **createdb i-need-space** (to create postgres database)
-4. **npm run start:dev** (to start build with webpack and start the server)
-5. **open your browser and navigate to localhost:8080**
+3. **add a file named "config.env" to your config folder** 
+4. ** put your MONGO_URI and SERVER_SECRET in this file**
+5. **npm run start:dev** (to start build with webpack and start the server)
 
 
 
