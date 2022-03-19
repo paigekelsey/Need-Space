@@ -36,6 +36,9 @@
     overflow: hidden;
   }
   
+  .App-header{
+      margin-top:5rem
+  }
   nav {
     display: flex;
     flex-flow: row nowrap;
@@ -45,8 +48,10 @@
     margin-left: 10px;
     margin-right: 10px;
     flex-shrink: 2;
-    background-color: #fef9ef;
+    padding-bottom:4rem;
+    width:100%
   }
+  
   
   .navItems {
     display: flex;
@@ -114,6 +119,9 @@
     color:#174441
   }
   
+  .container{
+      margin:5rem
+  }
   .landing-container {
     display: flex;
     flex-direction: column;
@@ -140,6 +148,14 @@
     color: #174441;
   }
   
+  .signup{
+      margin-top:4rem;
+  }
+
+  #login{
+      margin-top:4rem
+  }
+
   form div {
     margin: 1em;
     display: inline-block;
